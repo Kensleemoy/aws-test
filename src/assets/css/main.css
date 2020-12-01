@@ -1,0 +1,49 @@
+/* To Use This:
+Put the below line in any <template> to load the font:
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+Then add the line below to the top of any Main.js to link this css sheet with Vue view:
+import '../../assets/css/main.css';
+*/
+
+/* This makes sure there is not weird padding around header */
+html, body {
+    margin: 0;
+    padding: 0;
+    color: #666666;
+}
+
+body {
+    font-size: 20px;
+}
+
+a {
+    color: #666666;
+}
+
+a:visited {
+    color: #666666;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: #1c4587ff;
+}
+
+.subhead {
+    color:#ff9900;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+}
+
+.horizontal-container {
+    width: 60%;
+    display: inline-block;
+  }
+
+hr {
+    border: 3px solid #1c4587ff;
+    width: 100%;
+}
