@@ -102,7 +102,6 @@ export default {
 		async getCountiesData(){
 			this.loading = true;
 			try {
-				this.fetch = false;
 				const proxyurl = "https://hidden-fortress-01637.herokuapp.com/";
 				const url = "https://api.covidactnow.org/v2/counties.json?apiKey=";
 				const key = process.env.VUE_APP_APIKEY;
