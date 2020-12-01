@@ -2,7 +2,7 @@
 	<div id="app">
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     <Header />
-    <div v-if="!loading" class="data">
+    <div class="data">
         <h1>AWS DEMO TEST</h1>
 		<StateData />
 	</div>
