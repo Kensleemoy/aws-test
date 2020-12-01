@@ -17,7 +17,7 @@
 	</div>
 		
 		<div v-if="!loading&&fetch" class="idahostats">
-			<h1>County Stats</h1>
+			<h1>TESTING TESTING County Stats</h1>
 			<div class="description">
 				Select counties on the map to view their data in the table below.
 			</div>
@@ -102,6 +102,7 @@ export default {
 		async getCountiesData(){
 			this.loading = true;
 			try {
+				this.fetch = false;
 				const proxyurl = "https://hidden-fortress-01637.herokuapp.com/";
 				const url = "https://api.covidactnow.org/v2/counties.json?apiKey=";
 				const key = process.env.VUE_APP_APIKEY;
