@@ -2,8 +2,8 @@
 	<div id="app">
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     <Header />
-    <div v-if="!loading&&fetch" class="data">
-        <h1>Idaho Stats</h1>
+    <div v-if="!loading" class="data">
+        <h1>AWS DEMO TEST</h1>
 		<StateData />
 	</div>
 	<div v-if="!loading&&fetch" class="map">
@@ -17,7 +17,7 @@
 	</div>
 		
 		<div v-if="!loading&&fetch" class="idahostats">
-			<h1>TESTING TESTING County Stats</h1>
+			<h1>County Stats</h1>
 			<div class="description">
 				Select counties on the map to view their data in the table below.
 			</div>
